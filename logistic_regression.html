@@ -14267,7 +14267,7 @@ a.anchor-link {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Background">Background<a class="anchor-link" href="#Background">&#182;</a></h1><p>Logistic regression is an algorithm that is commonly used for binary classificaiton problems. It does this by predicting a probability and then using a threshold to determine which class to predict. Although the algorithm can be used for multi-class prediction problems, only binary classification is considered in this notebook. The following (sigmoid) function transforms the linear model into the range [0,1]:</p>
 $$\sigma(x) = \frac{1}{1+e^{-x}}$$<p>Visualising this function produces the following graph:</p>
-<p><img src="images/sigmoid.png" alt="Hello"></p>
+<p><img src="./images/sigmoid.png" alt="Hello"></p>
 <h3 id="Cost-Function">Cost Function<a class="anchor-link" href="#Cost-Function">&#182;</a></h3><p>The cost function used for linear regression does not work for logistic regression. This is because the sigmoid function causes many local minimums, meaning that finding optimal weights to minimise the cost function proves difficult. Therefore, the cross-entropy loss function is used to produce the following cost function:</p>
 $$
 \begin{align}
