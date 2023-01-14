@@ -2651,6 +2651,7 @@ input, select, textarea {
 
 	header.major {
 		margin-bottom: 3em;
+		text-align: left;
 	}
 
 		header.major h2 {
@@ -2667,7 +2668,7 @@ input, select, textarea {
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
-					margin-left: auto;
+					margin-left: 0;
 					margin-right: auto;
 				}
 
